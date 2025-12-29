@@ -8,7 +8,7 @@ import {
   ContactResponse 
 } from '../types';
 
-const API_BASE_URL = 'http://127.0.0.1:5000/api';
+const API_BASE_URL = 'https://python-portfolio-kn9o.onrender.com/api';
 
 const handleResponse = async (response: Response) => {
   if (!response.ok) {
