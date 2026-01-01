@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/rio-raj-006/Portfolio-FE.git"
+
   },
     "dependencies": {
     "@google/genai": "^1.34.0",
